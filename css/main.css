@@ -53,13 +53,15 @@ header {
 }
 
 .characters li h5 {
-  padding: 14px 8px;
+  padding: 6px 8px;
   text-align: center;
+  font-size: 16px;
 }
 
 .characters a:link {
   text-decoration: none;
   color: rgb(233, 236, 18);
+
 }
 
 .characters a:visited {
@@ -75,19 +77,13 @@ header {
   text-decoration: underline;
 }
 
+.characters li p {
+  padding: 5px 8px;
+  text-align: center;
+  font-size: 14px;
+  color: aliceblue;
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 .characters li img { width: 150px; cursor: pointer; }
@@ -233,7 +229,7 @@ padding-top: 50px;
 
 #lightBox5 {
 
-  background-image: url('../images/Thor_LB_Bg.png');
+  background-image: url('../images/maggie_simpson.png');
 
 
 }
