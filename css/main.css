@@ -11,16 +11,15 @@ html, body { height: 100% }
 
 body { 
   font-family: sans-serif;
-  background-color: black;
   color: white;
-  background-image: url('../images/denim.png');
+  background-image: linear-gradient(to right, rgb(153, 153, 153) , rgb(85, 141, 167) , rgb(153, 153, 153));
 }
 
 /* style the header */
 
 header {
   background-color: rgb(58, 114, 187);
-  background-image: linear-gradient(to right, rgb(57, 126, 230) , rgb(150, 222, 235) , rgb(248, 236, 70));
+  background-image: linear-gradient(to right, rgb(57, 126, 230) , rgb(150, 222, 235) , rgb(57, 126, 230));
   
   position: sticky;
   top: 0;
@@ -55,7 +54,41 @@ header {
 
 .characters li h5 {
   padding: 14px 8px;
+  text-align: center;
 }
+
+.characters a:link {
+  text-decoration: none;
+  color: rgb(233, 236, 18);
+}
+
+.characters a:visited {
+  text-decoration: none;
+  color: rgb(233, 236, 18);
+}
+
+.characters a:hover {
+  text-decoration: underline;
+}
+
+.characters a:active {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .characters li img { width: 150px; cursor: pointer; }
 
