@@ -61,6 +61,7 @@ header {
 .characters a:link {
   text-decoration: none;
   color: rgb(233, 236, 18);
+
 }
 
 .characters a:visited {
@@ -81,8 +82,8 @@ header {
   text-align: center;
   font-size: 14px;
   color: aliceblue;
-}
 
+}
 
 
 .characters li img { width: 150px; cursor: pointer; }
